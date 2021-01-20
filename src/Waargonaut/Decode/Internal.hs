@@ -100,6 +100,7 @@ import           Waargonaut.Decode.Error         (AsDecodeError (..),
                                                   DecodeError (..))
 import           Waargonaut.Decode.ZipperMove    (ZipperMove (..), ppZipperMove)
 
+-- |
 -- Track the history of the cursor as we move around the zipper.
 --
 -- It is indexed over the type of the index used to navigate the zipper.
